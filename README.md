@@ -18,7 +18,7 @@ This is the simle starter for writing cordova app using angular 6
 7. Type in terminal __*ng build*__ => For build Angular app in *./www* folder.
 8. After Angular project builded (see it in *./www* folder), type in terminal **_cordova build [platform]_**. For android platform *cordova build android*.
 
-# Foldr Structure
+# Folder Structure
 1. Look for Cordova project structure.
 2. Look for Angular project structure.
 3. After 1. and 2. you can understand structure of this starter kit.
