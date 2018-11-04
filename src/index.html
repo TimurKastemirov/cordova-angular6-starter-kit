@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>MyApp</title>
+
+		<!--
+			 Update the <base href=“/”> tag in your src/index.html to <base href=“./”>,
+			 this will enable angular to access files in a directory path since we are not hosting on a server.
+		-->
+
+		<base href="./">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+		<app-root></app-root>
+
+		<!--
+			 this script will throw error (net::ERR_ABORTED 404 (Not Found))
+			 but it need when you make ng build command in cli
+		-->
+		<script type="text/javascript" src="cordova.js"></script>
+	</body>
+</html>
